@@ -3,7 +3,7 @@
 svg gauge progress
 
 [![browser
-support](https://ci.testling.com/jameskyburz/gauge-progress.png)](http://ci.testling.com/jameskyburz/gauge-progress)
+support](https://ci.testling.com/jameskyburz/gauge-progress.png)](https://ci.testling.com/jameskyburz/gauge-progress)
 
 main.js:
 
