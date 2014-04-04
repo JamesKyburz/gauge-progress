@@ -5,6 +5,8 @@ svg gauge progress
 [![browser
 support](https://ci.testling.com/jameskyburz/gauge-progress.png)](https://ci.testling.com/jameskyburz/gauge-progress)
 
+Try it out on [requirebin](http://requirebin.com/?gist=9970787)
+
 main.js:
 
 ``` js
