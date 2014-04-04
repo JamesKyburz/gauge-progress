@@ -10,8 +10,10 @@ test('run gauge', function(t) {
   var progress = document.querySelector('.percentage');
 
   g.progress(10, 100);
-
   t.equal(progress.textContent, '10%');
+
+  g.progress(20, 100);
+  t.equal(progress.textContent, '20%');
 
   g.stop();
   t.ok(!document.querySelector('.gauge-widget'));

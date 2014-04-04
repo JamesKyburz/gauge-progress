@@ -64,14 +64,8 @@ Gauge.prototype.stop = function stop() {
 
 Gauge.prototype.progress = function progress(value, total) {
   var opt = this.opt;
-  hyperglue(this.el, {
-    '.progress': {
-      'd': this._updateState(value, total)
-    },
-    '.percentage': {
-      _text: Math.floor(value/total*100) + '%'
-    }
-  });
+  this.el.querySelector('.progress').setAttribute('d', this._updateState(value, total));
+  this.el.querySelector('.percentage').textContent = Math.floor(value/total*100) + '%';
 };
 
 Gauge.prototype._updateState = function updateState(value, total) {
