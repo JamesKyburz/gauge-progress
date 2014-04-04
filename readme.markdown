@@ -2,6 +2,9 @@
 
 svg gauge progress
 
+[![browser
+support](https://ci.testling.com/jameskyburz/gauge-progress.png)](http://ci.testling.com/jameskyburz/gauge-progress)
+
 main.js:
 
 ``` js
@@ -47,6 +50,12 @@ With [npm](https://npmjs.org) do:
 
 ```
 npm install gauge-progress
+```
+
+# test
+
+```
+npm test
 ```
 
 # license
