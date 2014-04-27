@@ -6,7 +6,7 @@ svg gauge progress
 support](https://ci.testling.com/jameskyburz/gauge-progress.png)](https://ci.testling.com/jameskyburz/gauge-progress)
 
 [![build
-status](https://api.travis-ci.org/JamesKyburz/gauge-progress.png)](https://api.travis-ci.org/JamesKyburz/gauge-progress.png)
+status](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)
 
 Try it out on [requirebin](http://requirebin.com/?gist=9970787)
 
