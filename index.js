@@ -59,7 +59,7 @@ Gauge.prototype.start = function start() {
 };
 
 Gauge.prototype.stop = function stop() {
-  if (this.el.parentNode) {
+  if (this.el && this.el.parentNode) {
     this.el.parentNode.removeChild(this.el);
   }
 };
