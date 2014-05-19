@@ -65,6 +65,7 @@ Gauge.prototype.stop = function stop() {
 };
 
 Gauge.prototype.progress = function progress(value, total) {
+  if (!this.el) return;
   var opt = this.opt;
   this.el.querySelector('.progress').setAttribute('d', this._updateState(value, total));
   this.el.querySelector('.percentage').textContent = Math.floor(value/total*100) + '%';
