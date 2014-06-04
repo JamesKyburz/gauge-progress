@@ -6,7 +6,7 @@ svg gauge progress
 
 [![build status](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)
 
-Try it out on [requirebin](http://requirebin.com/?gist=9970787)
+Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=9970787)
 
 main.js:
 
