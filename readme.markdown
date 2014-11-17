@@ -2,9 +2,9 @@
 
 svg gauge progress
 
-[![browser support](https://ci.testling.com/jameskyburz/gauge-progress.png)](https://ci.testling.com/jameskyburz/gauge-progress)
-
 [![build status](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)
+
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/gauge-progress.svg)](https://saucelabs.com/u/gauge-progress)
 
 Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=9970787)
 
@@ -58,7 +58,7 @@ npm install gauge-progress
 # test
 
 ```
-npm test
+npm test -- --local
 ```
 
 # license

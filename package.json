@@ -23,19 +23,7 @@
   "main": "index.js",
   "version": "0.0.6",
   "scripts": {
-    "test": "testling | faucet"
-  },
-  "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "ie/10..latest",
-      "chrome/20..latest",
-      "firefox/10..latest",
-      "safari/latest",
-      "opera/11.6..latest",
-      "iphone/6",
-      "ipad/6"
-    ]
+    "test": "zuul test/*.js"
   },
   "dependencies": {
     "brfs": "^1.2.0",
@@ -45,9 +33,8 @@
   },
   "devDependencies": {
     "browserify": "^5.11.1",
-    "faucet": "0.0.1",
-    "tape": "^2.14.0",
-    "testling": "^1.6.1"
+    "tape": "^3.0.3",
+    "zuul": "^1.13.1"
   },
   "license": "MIT"
 }
