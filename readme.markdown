@@ -2,7 +2,7 @@
 
 svg gauge progress
 
-[![build status](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)
+[![build status](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)](https://travis-ci.org/JamesKyburz/gauge-progress)
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/gauge-progress.svg)](https://saucelabs.com/u/gauge-progress)
 
