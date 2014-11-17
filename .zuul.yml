@@ -7,7 +7,7 @@ browsers:
   - name: safari
     version: latest
   - name: opera
-    version: 11.6..latest
+    version: latest
   - name: chrome
     version: latest
   - name: ipad
