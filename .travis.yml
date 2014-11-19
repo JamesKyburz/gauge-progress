@@ -1,6 +1,8 @@
 language: node_js
 node_js:
 - '0.10'
+script:
+  npm run test-browsers
 env:
   global:
   - secure: gOr95EHfgkqyvxb2dELYPEFSHBFovELBRLBLbBGci52n+kTRaCuUrtXLp38odwx6zt3jqJTe0bpOr+CslCvdZE7M2EKdkraCs2kT220woI4ces6NYxgAPSA8+j3ySOXfsgoLXq4azcjAddsmgFdx2VjU/yZbn/3eUhu8d8woQr0=
