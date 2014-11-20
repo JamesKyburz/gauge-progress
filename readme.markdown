@@ -58,7 +58,7 @@ npm install gauge-progress
 # test
 
 ```
-npm test -- --local
+npm test
 ```
 
 # license
