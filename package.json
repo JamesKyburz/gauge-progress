@@ -33,7 +33,6 @@
     "xtend": "^2.2.0"
   },
   "devDependencies": {
-    "browserify": "^6.3.2",
     "faucet": "0.0.1",
     "tape": "^3.0.3",
     "zuul": "git://github.com/defunctzombie/zuul.git#master"
