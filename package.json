@@ -24,7 +24,7 @@
   "version": "0.0.7",
   "scripts": {
     "test": "zuul test/*.js --phantom | faucet",
-    "test-browsers": "zuul test/*.js"
+    "test-browsers": "remove-saucelabs-jobs-by-build && zuul test/*.js"
   },
   "dependencies": {
     "brfs": "^1.2.0",
