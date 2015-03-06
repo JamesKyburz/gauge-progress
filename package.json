@@ -16,7 +16,7 @@
     "email": "james.kyburz@gmail.com"
   },
   "main": "index.js",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "scripts": {
     "test": "zuul test/*.js --phantom | faucet",
     "test-browsers": "remove-saucelabs-jobs-by-build && zuul test/*.js"
