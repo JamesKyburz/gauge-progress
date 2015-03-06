@@ -21,20 +21,20 @@ function render(state) {
                  fill:'transparent',
                  style:state.progress.style,
                  d:state.progress.d} ),
+               svg('text', {
+                 'class':'loading',
+                 'text-anchor':'middle',
+                 style:state.loading.style,
+                 x:state.loading.x,
+                 y:state.loading.y}
+                 , [state.loading.value]),
                  svg('text', {
-                   'class':'loading',
+                   'class':'percentage',
                    'text-anchor':'middle',
-                   style:state.loading.style,
-                   x:state.loading.x,
-                   y:state.loading.y}
-                   , [state.loading.value]),
-                   svg('text', {
-                     'class':'percentage',
-                     'text-anchor':'middle',
-                     style:state.percentage.style,
-                     x:state.percentage.x,
-                     y:state.percentage.y}
-                     , [state.percentage.value])
+                   style:state.percentage.style,
+                   x:state.percentage.x,
+                   y:state.percentage.y}
+                   , [state.percentage.value])
              ])
   ]);
 }
