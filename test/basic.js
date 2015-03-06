@@ -1,20 +1,45 @@
+// phantomjs it's 2015 and still no bind :(
+Function.prototype.bind = require('function-bind');
 var test = require('tape');
+var raf = require('raf');
 var gauge = require('../');
-test('run gauge', function(t) {
+var g, rendered;
+test('create gauge', function(t) {
   t.ok(!document.querySelector('.gauge-widget'));
+  g = gauge();
+  var update = g.loop.update.bind(g.loop);
 
-  var g = gauge();
+  g.loop.update = function(state) {
+    update(state);
+    raf(rendered);
+  };
+
+  t.end();
+});
+
+test('start gauge', function(t) {
   g.start();
-
   t.ok(document.querySelector('.gauge-widget'));
-  var progress = document.querySelector('.percentage');
+  t.end();
+});
 
+test('10%', function(t) {
+  t.plan(1);
+  rendered = function() {
+    t.equal(document.querySelector('.percentage').textContent, '10%');
+  }
   g.progress(10, 100);
-  t.equal(progress.textContent, '10%');
+});
 
+test('20%', function(t) {
+  t.plan(1);
+  rendered = function() {
+    t.equal(document.querySelector('.percentage').textContent, '20%');
+  }
   g.progress(20, 100);
-  t.equal(progress.textContent, '20%');
+});
 
+test('stop', function(t) {
   g.stop();
   t.ok(!document.querySelector('.gauge-widget'));
   t.end();

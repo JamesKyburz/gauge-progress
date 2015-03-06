@@ -1,4 +1,4 @@
-var xtend     = require('xtend');
+var xtend = require('xtend');
 
 module.exports = defaults;
 
