@@ -6,7 +6,7 @@ svg gauge progress
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/gauge-progress.svg)](https://saucelabs.com/u/gauge-progress)
 
-Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=9970787)
+Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requirebin.com/?gist=de194560ff8a5f01c287)
 
 main.js:
 
