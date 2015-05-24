@@ -24,15 +24,15 @@
   },
   "dependencies": {
     "main-loop": "^3.1.0",
-    "virtual-dom": "^2.0.0",
+    "virtual-dom": "^2.0.1",
     "xtend": "^4.0.0"
   },
   "devDependencies": {
     "faucet": "0.0.1",
     "function-bind": "^1.0.2",
     "remove-saucelabs-jobs-by-build": "^1.0.0",
-    "tape": "^3.0.3",
-    "zuul": "git://github.com/defunctzombie/zuul.git#master"
+    "tape": "^4.0.0",
+    "zuul": "^3.0.0"
   },
   "license": "MIT"
 }
