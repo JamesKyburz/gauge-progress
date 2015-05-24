@@ -1,7 +1,6 @@
 // phantomjs it's 2015 and still no bind :(
 Function.prototype.bind = require('function-bind');
 var test = require('tape');
-var raf = require('raf');
 var gauge = require('../');
 var g, rendered;
 test('create gauge', function(t) {
@@ -11,7 +10,7 @@ test('create gauge', function(t) {
 
   g.loop.update = function(state) {
     update(state);
-    raf(rendered);
+    setTimeout(rendered, 40);
   };
 
   t.end();
