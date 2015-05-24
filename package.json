@@ -19,6 +19,7 @@
   "version": "1.0.0",
   "scripts": {
     "test": "zuul test/*.js --phantom | faucet",
+    "test-local": "zuul test/*.js --local --open",
     "test-browsers": "remove-saucelabs-jobs-by-build && zuul test/*.js"
   },
   "dependencies": {
