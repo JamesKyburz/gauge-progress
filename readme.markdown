@@ -1,6 +1,6 @@
 # gauge-progress
 
-svg gauge progress
+gauge progress
 
 [![build status](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)](https://travis-ci.org/JamesKyburz/gauge-progress)
 
