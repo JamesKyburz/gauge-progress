@@ -23,16 +23,16 @@
     "test-browsers": "remove-saucelabs-jobs-by-build && zuul test/*.js"
   },
   "dependencies": {
-    "main-loop": "^3.1.0",
-    "virtual-dom": "^2.0.1",
-    "xtend": "^4.0.0"
+    "main-loop": "3.2.0",
+    "virtual-dom": "2.1.1",
+    "xtend": "4.0.0"
   },
   "devDependencies": {
     "faucet": "0.0.1",
-    "function-bind": "^1.0.2",
-    "remove-saucelabs-jobs-by-build": "^1.0.0",
-    "tape": "^4.0.0",
-    "zuul": "^3.0.0"
+    "function-bind": "1.0.2",
+    "remove-saucelabs-jobs-by-build": "1.0.0",
+    "tape": "4.2.0",
+    "zuul": "3.6.0"
   },
   "license": "MIT"
 }
