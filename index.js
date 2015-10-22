@@ -58,7 +58,7 @@ function Gauge(opt) {
       style: {
         fill: opt.textcolor,
         fontFamily: opt.font,
-        fontSize: fontsize * 0.7
+        fontSize: fontsize * 0.7 + 'px'
       }
     },
     percentage: {
@@ -67,7 +67,7 @@ function Gauge(opt) {
       style: {
         fill: opt.textcolor,
         fontFamily: opt.font,
-        fontSize: fontsize
+        fontSize: fontsize + 'px'
       }
     }
   };
