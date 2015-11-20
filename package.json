@@ -32,7 +32,7 @@
     "function-bind": "1.0.2",
     "remove-saucelabs-jobs-by-build": "1.0.3",
     "tape": "4.2.2",
-    "zuul": "3.7.2"
+    "zuul": "3.7.3"
   },
   "license": "MIT"
 }
