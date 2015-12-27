@@ -10,7 +10,7 @@ test('create gauge', function(t) {
 
   g.loop.update = function(state) {
     update(state);
-    setTimeout(rendered, 1500);
+    setTimeout(rendered, 1700);
   };
 
   t.end();
