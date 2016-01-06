@@ -10,8 +10,6 @@ browsers:
     version: latest
   - name: safari
     version: latest
-  - name: opera
-    version: latest
   - name: chrome
     version: latest
   - name: ipad
