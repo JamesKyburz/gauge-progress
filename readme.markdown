@@ -2,6 +2,8 @@
 
 gauge progress
 
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 [![build status](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)](https://travis-ci.org/JamesKyburz/gauge-progress)
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/gauge-progress.svg)](https://saucelabs.com/u/gauge-progress)
@@ -11,9 +13,9 @@ Try it out! [![view on requirebin](http://requirebin.com/badge.png)](http://requ
 main.js:
 
 ``` js
-var gauge = require('gauge-progress')();
-gauge.start();
-gauge.progress(10, 100); //10%
+var gauge = require('gauge-progress')()
+gauge.start()
+gauge.progress(10, 100) //10%
 
 ```
 
