@@ -1,8 +1,8 @@
-var xtend = require('xtend');
+var xtend = require('xtend')
 
-module.exports = defaults;
+module.exports = defaults
 
-function defaults(opt) {
+function defaults (opt) {
   return xtend({
     size: 100,
     loading: 'loading',
@@ -12,6 +12,6 @@ function defaults(opt) {
     font: 'arial,monospace',
     overlaycolor: 'white',
     overlayopacity: 0.7,
-    appendTo: document.body
-  }, opt);
+    appendTo: window.document.body
+  }, opt)
 }
