@@ -4,7 +4,7 @@ capabilities:
   video-upload-on-pass: false
   record-screenshots: false
 browsers:
-  - name: MicrosoftEdge
+  - name: microsoftedge
     version: 20.10240..latest
   - name: firefox
     version: latest
