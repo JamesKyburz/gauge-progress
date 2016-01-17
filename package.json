@@ -16,7 +16,7 @@
     "email": "james.kyburz@gmail.com"
   },
   "main": "index.js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "scripts": {
     "test": "zuul --no-coverage test/*.js --phantom | faucet",
     "test-local": "zuul --no-coverage test/*.js --local --open",
