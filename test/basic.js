@@ -19,7 +19,9 @@ test('create gauge', function (t) {
 
 test('start gauge', function (t) {
   g.start()
-  t.ok(document.querySelector('.gauge-widget'))
+  rendered = function () {
+    t.ok(document.querySelector('.gauge-widget'))
+  }
   t.end()
 })
 
