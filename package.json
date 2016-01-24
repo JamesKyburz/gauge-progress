@@ -15,6 +15,11 @@
     "name": "James Kyburz",
     "email": "james.kyburz@gmail.com"
   },
+  "browserify": {
+    "transform": [
+      "hyperxify"
+    ]
+  },
   "main": "index.js",
   "version": "2.0.1",
   "scripts": {
@@ -25,6 +30,7 @@
   },
   "dependencies": {
     "hyperx": "1.0.5",
+    "hyperxify": "1.1.0",
     "main-loop": "3.2.0",
     "virtual-dom": "2.1.1",
     "xtend": "4.0.1"
