@@ -29,7 +29,7 @@
     "prepublish": "standard"
   },
   "dependencies": {
-    "hyperx": "1.0.5",
+    "hyperx": "1.0.6",
     "hyperxify": "1.1.0",
     "main-loop": "3.2.0",
     "virtual-dom": "2.1.1",
