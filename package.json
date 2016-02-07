@@ -39,7 +39,7 @@
     "faucet": "0.0.1",
     "function-bind": "1.0.2",
     "remove-saucelabs-jobs-by-build": "1.0.6",
-    "standard": "6.0.3",
+    "standard": "6.0.4",
     "tape": "4.4.0",
     "zuul": "3.9.0"
   },
