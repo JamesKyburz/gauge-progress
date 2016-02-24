@@ -15,6 +15,7 @@ function Gauge (opt) {
   this.state = {
     overlay: {
       style: {
+        display: typeof opt.overlay !== 'undefined' && !opt.overlay ? 'none' : '',
         position: 'fixed',
         width: '100%',
         height: '100%',
