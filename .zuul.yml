@@ -12,7 +12,11 @@ browsers:
     version: latest
   - name: chrome
     version: latest
+  - name: opera
+    version: latest
   - name: ipad
-    version: 8.4..latest
+    version: latest
   - name: iphone
-    version: 8.4..latest
+    version: latest
+  - name: android
+    version: latest
