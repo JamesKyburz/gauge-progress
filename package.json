@@ -21,7 +21,7 @@
     ]
   },
   "main": "index.js",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "scripts": {
     "test": "zuul --no-coverage test/*.js --phantom | faucet",
     "test-local": "zuul --no-coverage test/*.js --local --open",
