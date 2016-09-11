@@ -28,7 +28,7 @@ test('start gauge', function (t) {
 test('10%', function (t) {
   t.plan(1)
   rendered = function () {
-    t.equal(document.querySelector('.percentage').textContent, '10%')
+    t.equal(document.querySelectorAll('text')[1].textContent, '10%')
   }
   g.progress(10, 100)
 })
@@ -36,7 +36,7 @@ test('10%', function (t) {
 test('20%', function (t) {
   t.plan(1)
   rendered = function () {
-    t.equal(document.querySelector('.percentage').textContent, '20%')
+    t.equal(document.querySelectorAll('text')[1].textContent, '20%')
   }
   g.progress(20, 100)
 })
