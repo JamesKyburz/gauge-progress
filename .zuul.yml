@@ -3,6 +3,9 @@ capabilities:
   record-video: false
   video-upload-on-pass: false
   record-screenshots: false
+tunnel:
+  type: ngrok
+  bind_tls: true
 browsers:
   - name: microsoftedge
     version: latest
@@ -13,8 +16,6 @@ browsers:
   - name: chrome
     version: latest
   - name: opera
-    version: latest
-  - name: ipad
     version: latest
   - name: iphone
     version: latest
