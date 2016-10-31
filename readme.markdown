@@ -1,10 +1,10 @@
-# gauge-progress
+q# gauge-progress
 
 gauge progress
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-[![build status](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)](https://travis-ci.org/JamesKyburz/gauge-progress)
+[![build status](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)](https://travis-ci.org/JamesKyburz/gauge-progress)[![npm](https://img.shields.io/npm/v/gauge-progress.svg)](https://npmjs.org/package/gauge-progress) [![downloads](https://img.shields.io/npm/dm/gauge-progress.svg)](https://npmjs.org/package/gauge-progress)
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/gauge-progress.svg)](https://saucelabs.com/u/gauge-progress)
 
