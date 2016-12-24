@@ -1,4 +1,4 @@
-q# gauge-progress
+# gauge-progress
 
 gauge progress
 
