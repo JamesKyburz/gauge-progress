@@ -52,12 +52,12 @@ function Gauge (opt) {
     },
     loading: {
       x: opt.size,
-      y: opt.size - fontsize * 1.3,
+      y: opt.size - (fontsize * 1.3),
       value: opt.loading,
       style: {
         fill: opt.textcolor,
         fontFamily: opt.font,
-        fontSize: fontsize * 0.7 + 'px'
+        fontSize: (fontsize * 0.7) + 'px'
       }
     },
     percentage: {
@@ -94,8 +94,8 @@ Gauge.prototype.progress = function progress (value, total) {
 Gauge.prototype._progress = function progress (value, total) {
   var alpha = 360 / total * value
   var a = (90 - alpha) * Math.PI / 180
-  var rx = this.size + this.r * Math.cos(a)
-  var ry = this.size - this.r * Math.sin(a)
+  var rx = this.size + (this.r * Math.cos(a))
+  var ry = this.size - (this.r * Math.sin(a))
   var center = alpha > 180 ? 1 : 0
   return 'M' + this.size + ',' + (this.size - this.r) + ' A' + this.r + ',' + this.r + ',' + 0 + ',' + center + ',' + 1 + ',' + rx + ',' + ry
 }
