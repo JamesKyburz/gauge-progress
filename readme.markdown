@@ -1,12 +1,12 @@
 # gauge-progress
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/gauge-progress.svg)](https://greenkeeper.io/)
-
 gauge progress
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
-[![build status](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)](https://travis-ci.org/JamesKyburz/gauge-progress)[![npm](https://img.shields.io/npm/v/gauge-progress.svg)](https://npmjs.org/package/gauge-progress) [![downloads](https://img.shields.io/npm/dm/gauge-progress.svg)](https://npmjs.org/package/gauge-progress)
+[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/feross/standard)
+[![build status](https://api.travis-ci.org/JamesKyburz/gauge-progress.svg)](https://travis-ci.org/JamesKyburz/gauge-progress)
+[![npm](https://img.shields.io/npm/v/gauge-progress.svg)](https://npmjs.org/package/gauge-progress)
+[![downloads](https://img.shields.io/npm/dm/gauge-progress.svg)](https://npmjs.org/package/gauge-progress)
+[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/gauge-progress.svg)](https://greenkeeper.io/)
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/gauge-progress.svg)](https://saucelabs.com/u/gauge-progress)
 
