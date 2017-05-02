@@ -1,5 +1,7 @@
 # gauge-progress
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/gauge-progress.svg)](https://greenkeeper.io/)
+
 gauge progress
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
