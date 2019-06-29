@@ -40,7 +40,7 @@
     "function-bind": "1.1.1",
     "remove-saucelabs-jobs-by-build": "1.0.20",
     "standard": "10.0.3",
-    "tape": "4.8.0",
+    "tape": "4.11.0",
     "zuul": "3.11.1",
     "zuul-ngrok": "4.0.0"
   },
