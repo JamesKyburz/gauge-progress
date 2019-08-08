@@ -1,3 +1,5 @@
+# This repository is no longer maintained.
+
 # gauge-progress
 
 gauge progress
