@@ -33,7 +33,7 @@
     "hyperxify": "2.0.1",
     "main-loop": "3.4.0",
     "virtual-dom": "2.1.1",
-    "xtend": "4.0.1"
+    "xtend": "4.0.2"
   },
   "devDependencies": {
     "faucet": "0.0.1",
